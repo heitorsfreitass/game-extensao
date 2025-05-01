@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extensao - Jogo</title>
-    <!-- css -->
-    <link rel="stylesheet" href="includes/css/style.css">
+    <title>Pergunta 06</title>
 
     <!-- bootstrap do hugasso -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!--css-->
     <style>
+        @charset "UTF-8";
+
         body {
             background: linear-gradient(to bottom right, #1e1e60, #4e54c8, #8f94fb);
             background-attachment: fixed;
@@ -81,7 +82,7 @@
         <div class="card">
             <div class="card-body">
                 <!--materia-->
-                <div id="titulo" class="">QuickMath</div>
+                <div id="titulo">QuickMath</div>
                 <!--perguntas-->
 
                 <div id="pergunta">
@@ -107,6 +108,7 @@
     </div>
 
     <script src="includes/js/script.js"></script>
+    <!--bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <!-- bootstrap do hugasso -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
