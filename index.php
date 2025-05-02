@@ -12,67 +12,6 @@
     <!--css-->
     <style>
         @charset "UTF-8";
-
-        body {
-            background: linear-gradient(to bottom right, #1e1e60, #4e54c8, #8f94fb);
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: cover;
-            min-height: 100vh;
-        }
-
-        #titulo {
-            text-align: center;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-weight: 100;
-            font-size: 2em;
-            background: linear-gradient(to right, #242983, #333781);
-            color: aliceblue;
-            padding: 3px;
-            box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.249);
-            border-radius: 20px;
-            max-width: 900px;
-            margin: auto;
-            text-shadow: 2px 2px 1px rgb(0, 0, 0);
-        }
-
-        .card {
-            height: 100vh;
-            border-radius: 7px;
-            border: 1px solid black;
-        }
-
-        .centralizar {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        #pergunta {
-            margin: auto;
-            text-align: center;
-            border: 1px solid black;
-            border-radius: 10px;
-            height: 80px;
-            margin-top: 25px;
-            color: black;
-            max-width: 400px;
-        }
-
-        #resposta {
-            max-width: 350px;
-            margin: auto;
-        }
-
-        .larg {
-            min-width: 400px;
-
-        }
-
-        #cet {
-            margin: auto;
-        }
     </style>
 </head>
 
